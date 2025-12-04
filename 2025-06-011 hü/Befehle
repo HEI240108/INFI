@@ -3,4 +3,4 @@
 3 SELECT AVG(finished_at) FROM _prisma_migrations;1 or 2 or 4 //avg
 4 SELECT * FROM Question where question like 'How%';   //like
 5 SELECT * FROM Question where question like 'what%';  //like
-LINK : https://www.w3schools.com/sql/default.asp
+LINK : https://wjww.w3schools.com/sql/default.asp
