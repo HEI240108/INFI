@@ -1,0 +1,33 @@
+erdiagram Bibliothek
+
+entity Mitarbeiter {
+    mitarbeiterID: int key
+}
+
+entity Buch {
+    isbn: string key
+    titel: string
+    autor: string
+    verlag: string
+}
+
+entity Exemplar {
+    exemplarID: int key
+    standort: string
+    status: string
+    buchID: int foreign key
+}
+
+relationship leiht_aus {
+    Mitarbeiter[1] -> Exemplar[N]
+    datum: date
+}
+
+relationship nimmt_zurueck {
+    Mitarbeiter[1] -> Exemplar[N]
+    datum: date
+}
+
+relationship gehoert_zu {
+    Buch[1] -> Exemplar[N]
+}
