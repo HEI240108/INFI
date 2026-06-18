@@ -1,2 +1,5 @@
 # INFI
 INFI Repository
+
+Pub key: BAB4B99BCC61450EC4A7D206609CA25139AA4CCC
+email: HEI240108@spengergasse.at
